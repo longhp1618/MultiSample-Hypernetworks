@@ -15,21 +15,5 @@ python trainer.py
 # Citation
 If our framework is useful for your research, please consider to cite the paper:
 ```
-@misc{https://doi.org/10.48550/arxiv.2212.01130,
-  doi = {10.48550/ARXIV.2212.01130},
-  
-  url = {https://arxiv.org/abs/2212.01130},
-  
-  author = {Hoang, Long Phi and Le, Dung Duy and Tran, Tuan Anh and Ngoc, Thang Tran},
-  
-  keywords = {Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  
-  title = {Improving Pareto Front Learning via Multi-Sample Hypernetworks},
-  
-  publisher = {arXiv},
-  
-  year = {2022},
-  
-  copyright = {arXiv.org perpetual, non-exclusive license}
-}
+@article{Hoang_Le_Anh Tuan_Ngoc Thang_2023, title={Improving Pareto Front Learning via Multi-Sample Hypernetworks}, volume={37}, url={https://ojs.aaai.org/index.php/AAAI/article/view/25953}, DOI={10.1609/aaai.v37i7.25953}, abstractNote={Pareto Front Learning (PFL) was recently introduced as an effective approach to obtain a mapping function from a given trade-off vector to a solution on the Pareto front, which solves the multi-objective optimization (MOO) problem. Due to the inherent trade-off between conflicting objectives, PFL offers a flexible approach in many scenarios in which the decision makers can not specify the preference of one Pareto solution over another, and must switch between them depending on the situation. However, existing PFL methods ignore the relationship between the solutions during the optimization process, which hinders the quality of the obtained front. To overcome this issue, we propose a novel PFL framework namely PHN-HVI, which employs a hypernetwork to generate multiple solutions from a set of diverse trade-off preferences and enhance the quality of the Pareto front by maximizing the Hypervolume indicator defined by these solutions. The experimental results on several MOO machine learning tasks show that the proposed framework significantly outperforms the baselines in producing the trade-off Pareto front.}, number={7}, journal={Proceedings of the AAAI Conference on Artificial Intelligence}, author={Hoang, Long P. and Le, Dung D. and Anh Tuan, Tran and Ngoc Thang, Tran}, year={2023}, month={Jun.}, pages={7875-7883} }
 ```
