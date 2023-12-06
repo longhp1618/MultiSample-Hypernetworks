@@ -1,5 +1,6 @@
 # Multi-Sample Hypernetworks
 The source code for the paper [Improving Pareto Front Learning via Multi-Sample Hypernetworks](https://arxiv.org/abs/2212.01130).
+
 If you have any questions, please don't hestitate to contact me: longhoangphi225@gmail.com 
 
 <p align="center"> 
